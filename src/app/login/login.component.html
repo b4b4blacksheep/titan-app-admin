@@ -1,0 +1,39 @@
+<!-- login.component.html -->
+
+<div class="container">
+    <div class="row justify-content-center align-items-center pt-5">
+      <div class="col-xs-12 col-md-6 col-lg-4 p-4 rounded">
+        <form>
+          <h1 class="loginTitle pb-4">LOGIN</h1>
+          <div class="form-group">
+            <label class="loginSub" for="userEmail">Email</label>
+            <input
+              autocomplete="off"
+              class="form-control loginText my-2"
+              type="email"
+              id="userEmail"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label class="loginSub" for="password1">Password</label>
+            <input
+              autocomplete="off"
+              class="form-control loginText mb-3"
+              type="password"
+              id="password1"
+              placeholder="Password"
+              required
+            />
+          </div>
+  
+          <div class="form-group py-3 d-flex justify-content-between">
+            <a routerLink="/register" class="text-decoration-none loginText">Register</a>
+            <a routerLink="/recover" class="text-decoration-none loginText">Forgot Password?</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

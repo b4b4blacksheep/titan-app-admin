@@ -1,0 +1,10 @@
+/* styles.css */
+
+body {
+    overflow-y: hidden;
+  }
+  
+.rounded {
+border-radius: 10px; /* Adjust the border-radius as needed */
+}
+  
